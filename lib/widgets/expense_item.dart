@@ -13,7 +13,7 @@ class ExpenseItem extends StatelessWidget {
           vertical: 12,
         ),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start, 
           children: [
             Text(
               expense.title,
